@@ -1036,6 +1036,12 @@ section {
   overflow: hidden;
 }
 
+.pooja-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+
 .pooja-hdr {
   background: linear-gradient(135deg, var(--saffron-deep), var(--brown-light));
   padding: 20px 24px;
@@ -1301,6 +1307,22 @@ footer {
   .btn-o {
     padding: 12px 20px;
     font-size: .8rem;
+  }
+
+  .pooja-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .pooja-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .pooja-time,
+  .pooja-name {
+    width: 100%;
   }
 }
 
